@@ -1,0 +1,13 @@
+# Site settings
+title: Fora Soft
+email: info@fora-soft.com
+description: > # this means to ignore newlines until "baseurl:"
+ Блог компании Fora Soft.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://forasoft.com" # the base hostname & protocol for your site
+twitter_username: forasoft
+
+# Build settings
+markdown: kramdown
+
+excerpt_separator: <!--more-->
