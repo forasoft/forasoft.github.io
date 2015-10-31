@@ -6,8 +6,7 @@ permalink: /webrtc-in-plain-russian/
 tags: [webrtc, p2p, turn, stun, ice]
 author: kupec
 ---
-
-Хочешь разобраться в <kbd>WebRTC</kbd>, не разбираясь в деталях реализаций? Тогда читай дальше.
+Эта статья расскажет вам основы **WebRTC**.
 
 <!--more-->
 
