@@ -24,9 +24,13 @@
     }
 }
 
+.rss-subscribe {
+	margin-top: 60px;
+}
+
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 80px;
 
     .menu-icon {
         display: none;
@@ -129,6 +133,7 @@
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
+	padding-top: 10px;
 }
 
 .footer-col-2 {
