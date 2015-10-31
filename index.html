@@ -4,8 +4,6 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Блог</h1>
-
   <ul class="post-list">
     {% for post in site.posts %}
     {% assign author = site.data.authors[post.author] %}
@@ -29,7 +27,6 @@ layout: default
 	  </div>
     {% endfor %}
   </ul>
-  <br />
   <p class="rss-subscribe">Подпишись <a href="{{ "/feed.xml" | prepend: site.baseurl }}">на RSS</a></p>
 
 </div>
