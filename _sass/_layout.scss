@@ -245,3 +245,18 @@
         }
     }
 }
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	background: #DDD;
+}
+
+th, td {
+	min-height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid black;
+}
