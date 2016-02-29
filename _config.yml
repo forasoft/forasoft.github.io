@@ -19,9 +19,6 @@ google_analytics: UA-69516541-1
 disqus: forasoft
 
 # Build settings
-markdown: redcarpet
-
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables", "space_after_headers", "footnotes"]
+markdown: kramdown
 
 excerpt_separator: <!--more-->
