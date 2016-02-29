@@ -8,4 +8,4 @@ gem install bundler
 bundle install
 ```
 
-Use `jekyll serve --watch` to run the app.
+Use `jekyll serve` to run the app.
