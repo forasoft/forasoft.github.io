@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Понимаем FFmpeg"
-date:   2016-03-19 11:34:00 +0300
+date:   2016-03-20 21:00:00 +0300
 permalink: /understanding-ffmpeg/
 tags: [ffmpeg, video, audio]
 keywords: [ffmpeg, video, audio]
