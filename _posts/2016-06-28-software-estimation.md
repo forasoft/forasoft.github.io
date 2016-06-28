@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Оцениваем трудозатраты на разработку правильно"
-date:   2016-06-28 21:00:00 +0300
+date:   2016-06-27 06:00:00 +0300
 permalink: /software-estimation/
 tags: [software estimation, software development]
 keywords: [estimation, software]
