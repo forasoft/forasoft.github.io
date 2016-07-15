@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Оцениваем трудозатраты на разработку правильно"
+title:  "Как разработчику оценить трудозатраты"
 date:   2016-06-27 06:00:00 +0300
 permalink: /software-estimation/
-tags: [software estimation, software development]
+tags: [software estimation, software development, software estimation for developers]
 keywords: [estimation, software]
 author: nikolay-sapunov
 ---
