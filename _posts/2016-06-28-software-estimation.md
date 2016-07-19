@@ -53,6 +53,7 @@ author: nikolay-sapunov
 ![](http://forasoft.github.io/assets/posts/software-estimation/Theory02.png)
 Чтобы было нагляднее, давайте представим эту же информацию в виде кумулятивного графика, в котором будет указана вероятность завершения проекта в указанный срок или ранее:
 ![](http://forasoft.github.io/assets/posts/software-estimation/Theory03.png)
+
 Получается, что если взять &laquo;наиболее вероятную&raquo; оценку в&nbsp;10&nbsp;дней, то&nbsp;вероятность того, что задача будет готова в&nbsp;этот срок или раньше&nbsp;&mdash; меньше 50%. 
 
 ## Игнорирование текущего уровня неопределенности ##
