@@ -432,7 +432,7 @@ moon.material = moonMat; //задаем материал
 
 Текстуры можно взять [здесь](https://github.com/zivaaa/bjs-tutorial/blob/master/web/textures/)
 
-![image](/assets/posts/webgl-babylonjs-p1/moon.png)
+![image](/assets/posts/webgl-babylonjs-p1/moon.jpg)
 
 Рис. 1. Диффузная текстура
 
