@@ -8,7 +8,7 @@ keywords: "webgl, babylonjs, js"
 author: zivaaa
 ---
 
-Продолжение урока по&nbsp;созданию 3D&nbsp;сцены средствами браузера.
+Продолжим создание нашей космической сцены с&nbsp;помощью BabylonJS. В [первой части](/webgl-babylonjs-p1) мы&nbsp;создали окружение, Землю и&nbsp;Луну и&nbsp;наложили материалы. Нам осталось добавить атмосферу, солнечный свет и&nbsp;анимацию.
 
 <!--more-->
 
@@ -540,7 +540,7 @@ var postProcess = new BABYLON.BlurPostProcess("Horizontal blur", new BABYLON.Vec
 camera.attachPostProcess(postProcess);
 ```
 
-Код приложения на текущий момент [здесь](https://github.com/zivaaa/bjs-tutorial/blob/master/web/p5.html)
+Код приложения на текущий момент [здесь](https://github.com/zivaaa/bjs-tutorial/blob/master/web/p5.html).
 
 <br/>
 
@@ -633,7 +633,7 @@ engine.runRenderLoop(function() { //инициируем перерисовку
 
 Рис. 1. Вращение Луны вокруг земли в глобальных координатах.
 
-Код приложения на текущий момент [здесь](https://github.com/zivaaa/bjs-tutorial/blob/master/web/p6.html)
+Код приложения на текущий момент [здесь](https://github.com/zivaaa/bjs-tutorial/blob/master/web/p6.html).
 
 <br/>
 
@@ -737,7 +737,7 @@ camera.alpha += 0.005;
 
 Наша сцена готова.
 
-Финальный код приложения доступен [здесь](https://github.com/zivaaa/bjs-tutorial/blob/master/web/p7.html)
+Финальный код приложения доступен [здесь](https://github.com/zivaaa/bjs-tutorial/blob/master/web/p7.html).
 
 <br/>
 
