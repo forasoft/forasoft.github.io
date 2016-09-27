@@ -763,20 +763,24 @@ camera.alpha += 0.005;
 Для более глубокого изучения WebGL рекомендуем следующие материалы:
 
 *Книги*
+
 - Коичи Мацуда, Роджер Ли &laquo;WebGL. Программирование трехмерной графики&raquo;
 - OpenGL ES 2.0 Programming Guide
 
 *WebGl*
+
 - [туториал по webgl](https://developer.mozilla.org/ru/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL)
 - [еще уроки по webGL](http://webgl-lessons.blogspot.ru/p/blog-page_26.html)
 
 *Babylon js*
+
 - [Babylon js демо](http://www.babylonjs.com)
 - [шейдеры и шейдерные материалы](https://www.eternalcoding.com/?p=113)
 - [официальные туториалы](https://doc.babylonjs.com/tutorials)
 - [документация по движку](http://doc.babylonjs.com/classes/2.4)
 
 *Математические основы*
+
 - [матрицы преобразования](http://www.opengl-tutorial.org/ru/beginners-tutorials/tutorial-3-matrices/)
 - [что такое матрицы и как с ними обращаться](http://pmg.org.ru/basic3d/math.htm)
 - [линейная алгебра](https://habrahabr.ru/post/131931/)
