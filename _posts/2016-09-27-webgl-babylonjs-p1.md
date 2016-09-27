@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Знакомимся с WebGL и BabylonJS (часть 1)"
-date:   2016-09-24 20:00:00 +0300
+date:   2016-09-27 17:30:00 +0300
 permalink: /webgl-babylonjs-p1/
 tags: [webgl, babylonjs, js]
 keywords: "webgl, babylonjs, js"
