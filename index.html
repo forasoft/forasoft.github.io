@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: index
 ---
 
 <div class="home">
-
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
     {% assign author = site.data.authors[post.author] %}
 	<div class="post">
 		<h1 class="post-title">
@@ -23,7 +22,7 @@ layout: default
 		{% else %}
 			{{ post.excerpt }}
 		{% endif %}
-		<strong><a href="{{ post.url }}">Читать дальше</a></strong>
+		<a class="btn btn-primary" href="{{ BASE_PATH }}{{ post.url }}">Читать далее <span class="glyphicon glyphicon-chevron-right"></span></a>
 	  </div>
     {% endfor %}
   </ul>
