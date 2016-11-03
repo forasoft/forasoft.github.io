@@ -93,7 +93,9 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
-
+    &.btn {
+      color: #ffffff !important;
+    }
     &:visited {
         color: darken($brand-color, 15%);
     }
@@ -194,7 +196,7 @@ pre {
 
 .author {
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .author-avatar {
@@ -210,7 +212,9 @@ pre {
   vertical-align: middle;
   display: inline;
 }
-
+img {
+  display: block;
+}
 .logo {
   margin-right: auto;
   margin-left: auto;
