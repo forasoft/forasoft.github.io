@@ -1,0 +1,82 @@
+<div class="container about">
+    <div class="row">
+
+        <!-- Blog Entries Column -->
+        <div class="col-md-8 blog-entries">
+            {{ content }}
+
+
+            <!-- Pagination links -->
+            <ul class="pagination">
+                {% if paginator.previous_page %}
+                <li><a href="{{ paginator.previous_page_path }}" class="previous">Назад</a></li>
+                {% else %}
+                <li><span class="previous">Назад</span></li>
+                {% endif %}
+                <li><span class="page_number ">Страница: {{ paginator.page }} из {{ paginator.total_pages }}</span></li>
+                {% if paginator.next_page %}
+                <li><a href="{{ paginator.next_page_path }}" class="next">Вперед</a></li>
+                {% else %}
+                <li><span class="next ">Вперед</span></li>
+                {% endif %}
+            </ul>
+        </div>
+
+        <!-- Blog Sidebar Widgets Column -->
+        <div class="col-md-4">
+
+            <!-- Blog Search Well -->
+            <div class="well hidden">
+                <h4>Blog Search</h4>
+
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                </div>
+                <!-- /.input-group -->
+            </div>
+
+            <!-- Blog Categories Well -->
+            <div class="well hidden">
+                <h4>Blog Categories</h4>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="list-unstyled">
+                            {% assign categories_list = site.categories %}
+                            {% include JB/categories_list %}
+                        </ul>
+                    </div>
+                    <!-- /.col-lg-6 -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+
+            <!-- Side Widget Well -->
+            <div class="well hidden">
+                <h4>Side Widget Well</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus
+                    laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+
+                <p class="bs-component">
+                    <a href="javascript:void(0)" class="btn btn-primary">Primary</a><br>
+                    <a href="javascript:void(0)" class="btn btn-success">Success</a><br>
+                    <a href="javascript:void(0)" class="btn btn-info">Info</a><br>
+                    <a href="javascript:void(0)" class="btn btn-warning">Warning</a><br>
+                    <a href="javascript:void(0)" class="btn btn-danger">Danger</a><br>
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.row -->
+</div>
+
+
