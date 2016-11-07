@@ -8,15 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
           content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="stylesheet" href="{{ "
-    /css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link href="{{ ASSET_PATH }}/css/syntax-monokai-light.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/resources/bootstrap/css/bootstrap-paper.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "
-    /feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
     <link href="{{ site.baseurl }}/public/likely.css" rel="stylesheet"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <!--[if lt IE 9]>
@@ -40,7 +38,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="{{ site.baseurl }}/"><img class="logo" src="{{ site.baseurl }}/public/logo.png"/></a>
+            <a href="{{ site.baseurl }}/"><img class="logo" alt="logo" src="{{ site.baseurl }}/public/logo.png"/></a>
         </div>
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">

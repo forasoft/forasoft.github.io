@@ -1,21 +1,41 @@
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="container">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-{% assign author = site.data.authors[page.author] %}
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <a class="author" href="{{ author.web }}" target="_blank">
-    <img class="author-avatar" src="{{ author.avatar }}"/>
-    <span class="post-date author-name">{{ author.name }}, {{ page.date | date_to_string }}</span>
-  </a>
-  {{ content }}
-</div>
-<div class="likely">
-  <div class="facebook">Поделиться</div>
-  <div class="twitter">Твитнуть</div>
-  <div class="gplus">Плюсануть</div>
-  <div class="telegram">Отправить</div>
-  <div class="vkontakte">Поделиться</div>
-</div>
+        {% assign author = site.data.authors[page.author] %}
+        <div class="post">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <a class="author" href="{{ author.web }}" target="_blank">
+                <img alt="author" class="author-avatar" src="{{ author.avatar }}"/>
+                <span class="post-date author-name">{{ author.name }},
+                 {% assign m = page.date | date: "%-m" %}
+                    {{ page.date | date: "%-d" }}
+                    {% case m %}
+                        {% when '1' %}Января
+                        {% when '2' %}Февраля
+                        {% when '3' %}Марта
+                        {% when '4' %}Апреля
+                        {% when '5' %}Мая
+                        {% when '6' %}Июня
+                        {% when '7' %}Июля
+                        {% when '8' %}Августа
+                        {% when '9' %}Сентября
+                        {% when '10' %}Октября
+                        {% when '11' %}Ноября
+                        {% when '12' %}Декабря
+                    {% endcase %}
+                {{ page.date | date: "%Y" }}
+                </span>
+            </a>
+            {{ content }}
+        </div>
+        <div class="likely">
+            <div class="facebook">Поделиться</div>
+            <div class="twitter">Твитнуть</div>
+            <div class="gplus">Плюсануть</div>
+            <div class="telegram">Отправить</div>
+            <div class="vkontakte">Поделиться</div>
+        </div>
 
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}
-</article>
+        {% include disqus.html disqus_identifier=page.disqus_identifier %}
+    </article>
+</div>
