@@ -1,7 +1,7 @@
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
 
 # Site settings
-title: Fora Soft
+title: Блог Fora Soft о разработке мультимедиа приложений
 email: info@fora-soft.com
 description: > # this means to ignore newlines until "baseurl:"
  Блог компании Fora Soft.

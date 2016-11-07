@@ -14,7 +14,7 @@ WebGL привлекает к&nbsp;себе все больше внимания
 Узнаем что такое шейдеры, как моделировать объекты, накладывать текстуры, создавать окружение и&nbsp;ставить свет.
 В&nbsp;конце анимируем статичную сцену и&nbsp;добавим эффекты пост-обработки.
 
-<img style="width:50%;" src="/assets/posts/webgl-babylonjs-p1/result.png"/>
+<img style="width:50%;" alt="Result" src="/assets/posts/webgl-babylonjs-p1/result.png"/>
 
 
 Рис.&nbsp;1. Результат, который мы&nbsp;получим в&nbsp;конце урока.
