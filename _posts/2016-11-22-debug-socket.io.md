@@ -21,6 +21,7 @@ Socket.io&nbsp;&mdash; популярная библиотека для орга
 - *message*
 
 Алгоритм действий:
+
 1. *register*, передаем `login` и `password`. Данные передаются первым аргументом в объекте: `{login: ‘pavel’, password: ‘1234’}`. Вторым аргументом идет callback, который получит ошибку, если она есть. Callback соответствует принятому в node.js - первый параметр - ошибка, если есть, второй - ответ.
 2. *login*, данные те же, что и у *register*. В callback передается `accessToken`, если ошибок нет.
 3. *message* - `{token: '{accessToken}', message: '{text}'}`
