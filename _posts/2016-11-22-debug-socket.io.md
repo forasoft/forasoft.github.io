@@ -3,8 +3,8 @@ layout: post
 title:  "Методы отладки приложений на socket.io"
 date:   2016-11-22 16:00:00 +0300
 permalink: /debugging-socket.io/
-tags: [ffmpeg, video, audio]
-keywords: [ffmpeg, video, audio]
+tags: [socket.io, javascript, debug]
+keywords: [socket.io, javascript, debug]
 author: pabloid
 ---
 Socket.io&nbsp;&mdash; популярная библиотека для организации передачи данных от&nbsp;браузера серверу и&nbsp;наоборот. Использовать ее&nbsp;достаточно просто, но&nbsp;на&nbsp;больших проектах возникает проблема отладки как сервера,так и&nbsp;клиента. 
