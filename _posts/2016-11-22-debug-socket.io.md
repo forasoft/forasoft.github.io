@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Методы отладки приложений на socket.io"
+title:  "Методы отладки приложений на&nbsp;socket.io"
 date:   2016-11-22 16:00:00 +0300
 permalink: /debugging-socket.io/
 tags: [socket.io, javascript, debug]

@@ -6,7 +6,7 @@ email: info@fora-soft.com
 description: > # this means to ignore newlines until "baseurl:"
  Блог компании Fora Soft.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://forasoft.github.io/" # the base hostname & protocol for your site
+url: "http://forasoft.github.io" # the base hostname & protocol for your site
 twitter_username: forasoft
 
 JB:
@@ -29,5 +29,5 @@ paginate: 5
 excerpt_separator: <!--more-->
 JB :
   version : 0.3.0
-BASE_PATH : http://forasoft.github.io/
+BASE_PATH : http://forasoft.github.io
 ASSET_PATH : false
