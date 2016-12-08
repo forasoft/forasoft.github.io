@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Распознаем покерные фишки"
-date:   2016-08-02 10:00:00 +0300
+date:   2016-12-08 10:00:00 +0300
 permalink: /poker-chip-recognition/
 tags: [image, recognition, imagerecognition, poker, chip, opencv, computervision]
 keywords: [image, recognition, imagerecognition, poker, chip, opencv, computervision]
