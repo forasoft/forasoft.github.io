@@ -16,6 +16,7 @@ Socket.io&nbsp;&mdash; популярная библиотека для орга
 Для примера возьмем [такую реализацию](https://github.com/Pabloader/socket-debug-example/blob/master/index.js).
 
 Со стороны сервера у нас имеется 3 cобытия:
+
 - *register*
 - *login*
 - *message*
@@ -233,6 +234,7 @@ describe('Server', function () {
 
 
 Таких приложений не&nbsp;так уж&nbsp;и&nbsp;много и&nbsp;они не&nbsp;блещут функциональностью:
+
 - <http://scaret.in/socket.io-client/>
   - Возможно подключение к нескольким серверам одновременно
   - Чтобы получать сообщения, на событие нужно подписаться
