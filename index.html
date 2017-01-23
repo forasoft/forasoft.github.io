@@ -5,7 +5,6 @@ layout: index
 <div class="home">
   <ul class="post-list">
     {% for post in paginator.posts %}
-    {% assign author = site.data.authors[post.author] %}
 	<div class="post">
 		<h1 class="post-title">
 		  <a href="{{ post.url }}">
@@ -13,6 +12,34 @@ layout: index
 		  </a>
 		</h1>
 
+        {% if post.author[1] %}
+        {% for elem in post.author %}
+        {% assign author = site.data.authors[elem] %}
+        <a class="author" href="{{ author.web }}" target="_blank">
+          <img alt="author" class="author-avatar" src="{{ author.avatar }}"/>
+          <span class="post-date author-name">{{ author.name }},
+                           {% assign m = post.date | date: "%-m" %}
+                    {{ post.date | date: "%-d" }}
+                    {% case m %}
+                        {% when '1' %}Января
+                        {% when '2' %}Февраля
+                        {% when '3' %}Марта
+                        {% when '4' %}Апреля
+                        {% when '5' %}Мая
+                        {% when '6' %}Июня
+                        {% when '7' %}Июля
+                        {% when '8' %}Августа
+                        {% when '9' %}Сентября
+                        {% when '10' %}Октября
+                        {% when '11' %}Ноября
+                        {% when '12' %}Декабря
+                    {% endcase %}
+                {{ post.date | date: "%Y" }}</span>
+        </a>
+
+        {% endfor %}
+        {% else %}
+        {% assign author = site.data.authors[post.author] %}
 		<a class="author" href="{{ author.web }}" target="_blank">
 		  <img alt="author" class="author-avatar" src="{{ author.avatar }}"/>
 		  <span class="post-date author-name">{{ author.name }},
@@ -34,6 +61,7 @@ layout: index
                     {% endcase %}
                 {{ post.date | date: "%Y" }}</span>
 		</a>
+        {% endif %}
 		{% if post.content contains '<!--more-->' %}
 			{{ post.content | split:'<!--more-->' | first }}
 		{% else %}
