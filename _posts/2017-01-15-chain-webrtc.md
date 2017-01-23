@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Вебинар на&nbsp;WebRTC без&nbsp;медиасерверов"
-date:   2017-01-23 00:00:00 +0300
+date:   2017-02-23 00:00:00 +0300
 permalink: /chain-webrtc/
 tags: [webrtc, videochat, p2p]
 keywords: [webrtc, videochat, p2p]
