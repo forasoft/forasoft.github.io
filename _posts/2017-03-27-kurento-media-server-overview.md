@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Обзор&nbsp;медиасервера&nbsp;Kurento"
-date: "2017-03-26 09:53"
+date: "2017-03-27 00:00:00 +0300"
 permalink: /kurento-media-server-overview/
 tags: [KMS, kurento, webrtc, media server, opensource]
 keywords: "KMS, kurento, webrtc, media server, opensource"
@@ -15,7 +15,7 @@ Kurento&nbsp;&mdash; это бесплатный [WebRTC](/webrtc-in-plain-russi
 
 Если мы&nbsp;делаем групповой чат без медиасервера, то&nbsp;вынуждены либо соединить каждого клиента с&nbsp;каждым, либо выбрать одного клиента и&nbsp;передавать поток через него.
 
-Когда видео транслирует один клиент, например в&nbsp;приложение для проведения вебинаров, можно передавать потоки по&nbsp;цепочке между всеми клиентами ([Вебинар на&nbsp;WebRTC без медиасерверов](/chain-webrtc)).
+Когда видео транслирует один клиент, например в&nbsp;приложение для проведения вебинаров, можно передавать потоки по&nbsp;[цепочке между всеми клиентами](/chain-webrtc).
 
 Но&nbsp;у&nbsp;этих решений есть недостатки, которые станут критичными при большом числе подключенных клиентов.
 
@@ -52,6 +52,7 @@ Kurento&nbsp;&mdash; это бесплатный WebRTC медиа сервер,
 
 Kurento Media Server предоставляет следующий функционал из&nbsp;коробки:
 ![](/assets/posts/kurento-overview/Cloud.jpg)
+
 Этот функционал обеспечивают встроенные модули.
 
 ![](/assets/posts/kurento-overview/API.jpg)
