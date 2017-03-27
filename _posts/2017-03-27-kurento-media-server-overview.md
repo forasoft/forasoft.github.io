@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Обзор&nbsp;медиасервера&nbsp;Kurento"
-date: "2017-03-27 00:00:00 +0300"
+date: "2017-03-27 12:00:00 +0300"
 permalink: /kurento-media-server-overview/
 tags: [KMS, kurento, webrtc, media server, opensource]
 keywords: "KMS, kurento, webrtc, media server, opensource"
@@ -51,7 +51,7 @@ Kurento&nbsp;&mdash; это бесплатный WebRTC медиа сервер,
 ## Возможности ##
 
 Kurento Media Server предоставляет следующий функционал из&nbsp;коробки:
-![](/assets/posts/kurento-overview/Cloud.jpg)
+![](/assets/posts/kurento-overview/Cloud.png)
 
 Этот функционал обеспечивают встроенные модули.
 
